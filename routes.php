@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Http;
 Route::get('/entryBgaming', function (Request $request) {
 
 	if(!$request->player) {
-		return 'You did not specify player id in your request';
+		return 'You did not specify player id in yohttps://github.com/respins-example/video-example-2/blob/main/routesur request';
 	}
 
 	$player = $request->player;
